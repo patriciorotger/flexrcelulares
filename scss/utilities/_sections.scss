@@ -1,0 +1,311 @@
+.section1 h3 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .section1 img {
+    margin: 10px;
+    width: 1500px;
+  }
+  
+  .section1 a {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: deeppink;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background-color: #ff5cef;
+    }
+  }
+  
+  .section2 h3 {
+    color: deeppink;
+    margin-top: 55px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .section2 button:hover {
+    background-color: #ff5cef;
+  }
+  
+  .div1, .div2, .div3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+  
+  .img1, .img2, .img3, .img4, .img5, .img6 {
+    width: 550px;
+    height: 650px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  article h4 {
+    color: deeppink;
+    font-family: sans-serif;
+    font-size: 25px;
+  }
+  
+  article {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    transition: box-shadow 0.3s;
+  
+    &:hover {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  /* Accesorios */
+  .sectionacc article {
+    flex: 1 1 calc(50% - 20px);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    transition: box-shadow 0.3s;
+  }
+  
+  .sectionacc img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: deeppink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  h4 {
+    font-size: 1.3rem;
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: deeppink;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background-color: #ff5cef;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  /* Bazar */
+  .bazar-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .bazar-section article {
+    flex: 1 1 calc(50% - 20px);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    transition: box-shadow 0.3s;
+    
+    &:hover {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  .bazar-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .bazar-section h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .bazar-section p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .bazar-section h4 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  
+  .bazar-section button {
+    padding: 10px 20px;
+    background-color: deeppink;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background-color: #ff5cef;
+    }
+  }
+  
+  /* Celulares */
+  .section-celulares {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .section-celulares article {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    &:hover {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  .section-celulares img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .section-celulares h3 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  
+  .section-celulares header {
+    margin-bottom: 10px;
+  }
+  
+  .section-celulares h4 {
+    font-size: 1rem;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .section-celulares ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  .section-celulares ul li {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .section-celulares button {
+    padding: 10px 20px;
+    background-color: deeppink;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background-color: #ff5cef;
+    }
+  }
+  
+  /* Servicio Técnico */
+  .texto {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    margin: 15px 0;
+    text-align: center;
+  }
+  
+  .imagen-pequena {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .h3-servicio {
+    text-align: center;
+  }
+  
+  /* Contacto */
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .contact-form h2 {
+    color: deeppink;
+    text-align: center;
+    margin-bottom: 120px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: deeppink;
+    border-radius: 100px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    background-color: deeppink;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background-color: #ff5cef;
+    }
+  }

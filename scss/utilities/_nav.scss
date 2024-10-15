@@ -1,0 +1,54 @@
+.logo {
+    width: 150px;
+    height: auto;
+    border-radius: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  
+  .titulo {
+    color: deeppink;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 4px #aaa;
+  }
+  
+  .nav1 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    background: linear-gradient(to right, deeppink, #ff5cef);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+  
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+    }
+  
+    li {
+      margin: 0 15px;
+    }
+  
+    a {
+      text-decoration: none;
+      color: white;
+      transition: color 0.3s;
+      padding: 10px;
+      border-radius: 5px;
+  
+      &:hover {
+        color: #fff3f3;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        background-color: #ff5cef;
+      }
+    }
+  }

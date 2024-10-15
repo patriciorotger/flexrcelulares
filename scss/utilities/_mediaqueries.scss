@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+    .section1 img {
+      width: 100%;
+    }
+  
+    .titulo {
+      font-size: 35px;
+    }
+  
+    .logo {
+      width: 50%;
+      max-width: 80px;
+    }
+  
+    .nav1 ul {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .nav1 li {
+      margin: 10px 0;
+    }
+  
+    .section-celulares {
+      grid-template-columns: 1fr;
+    }
+  
+    .sectionacc > div {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .img1, .img2, .img3, .img4, .img5, .img6 {
+      width: 300px;
+      height: auto;
+    }
+  
+    h2, h3 {
+      font-size: 30px;
+    }
+  
+    .div1, .div2, .div3 {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .img1, .img2, .img3, .img4, .img5, .img6 {
+      width: 100%;
+      height: auto;
+    }
+  
+    h2, h3 {
+      font-size: 25px;
+    }
+  
+    form {
+      padding: 15px;
+    }
+  
+    .sectionacc article, .bazar-section article {
+      flex: 1 1 100%;
+    }
+  }

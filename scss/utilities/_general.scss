@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: block;
+    background-color: #f0f0f0;
+  }
+  
+  h2 {
+    color: deeppink;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px #888;
+  }
+  
+  h4 {
+    font-family: cursive;
+  }
+  
+  .header1 {
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 35px;
+    margin-top: 45px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background: linear-gradient(to right, deeppink, #ff5cef);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+
+  footer a {
+    text-decoration: none; /* Quitar subrayado de los enlaces en el footer */
+    color: #ffffff; /* Color del texto del enlace */
+    transition: color 0.3s ease, transform 0.3s ease; /* Transición para el color y transformación */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+ 
+  footer a:hover {
+    color: #000000; /* Cambia el color del enlace al pasar el mouse */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño del enlace */
+  }
+  
+  .sectionacc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .sectionacc > div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
