@@ -1,5 +1,5 @@
 .section1 h3 {
-    font-family: cursive;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 25px;
   }
@@ -37,6 +37,11 @@
   .section2 button:hover {
     background-color: #ff5cef;
   }
+
+  .section2 p {
+    color: #555;
+    font-size: 1.3rem;
+  }
   
   .div1, .div2, .div3 {
     display: flex;
@@ -56,6 +61,7 @@
     color: deeppink;
     font-family: sans-serif;
     font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   article {
@@ -86,20 +92,22 @@
   }
   
   h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 10px 0;
     color: deeppink;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   h4 {
-    font-size: 1.3rem;
+    font-size: 25px;
     margin: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   button {
@@ -145,13 +153,15 @@
   }
   
   .bazar-section h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   .bazar-section p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   .bazar-section h4 {
@@ -202,7 +212,7 @@
   }
   
   .section-celulares h3 {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     margin: 10px 0;
   }
   
@@ -211,7 +221,7 @@
   }
   
   .section-celulares h4 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #333;
     margin: 5px 0;
   }
@@ -227,6 +237,11 @@
     margin-bottom: 5px;
     font-size: 0.9rem;
     color: #555;
+  }
+
+  .section-celulares p {
+    color: #555;
+    font-size: 1.3rem;
   }
   
   .section-celulares button {
