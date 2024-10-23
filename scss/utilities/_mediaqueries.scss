@@ -31,6 +31,14 @@
     }
   }
   
+    footer {
+      justify-content: space-around;
+  }
+
+    footer section {
+      flex: 1 1 30%; /* Ocupa el 30% en pantallas medianas y grandes */
+  }
+
   @media (max-width: 1024px) {
     .img1, .img2, .img3, .img4, .img5, .img6 {
       width: 300px;

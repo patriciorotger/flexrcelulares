@@ -40,15 +40,35 @@ footer {
   background: linear-gradient(to right, deeppink, #ff5cef);
   color: rgb(0, 0, 0);
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
 }
 
 footer a {
   text-decoration: none; /* Quitar subrayado de los enlaces en el footer */
   color: #ffffff; /* Color del texto del enlace */
   transition: color 0.3s ease, transform 0.3s ease; /* Transición para el color y transformación */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer section {
+  flex: 1 1 100%; /* Ocupa toda la fila en pantallas pequeñas */
+  padding: 5px;
+}
+
+footer h4 {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  color: #000000;
+}
+
+footer ul {
+  padding: 10;
+}
+
+footer li {
+  margin-bottom: 5px;
 }
 
 footer a:hover {
@@ -96,6 +116,14 @@ footer a:hover {
     flex-direction: column;
   }
 }
+footer {
+  justify-content: space-around;
+}
+
+footer section {
+  flex: 1 1 30%; /* Ocupa el 30% en pantallas medianas y grandes */
+}
+
 @media (max-width: 1024px) {
   .img1, .img2, .img3, .img4, .img5, .img6 {
     width: 300px;
@@ -130,8 +158,10 @@ footer a:hover {
 }
 
 .section1 img {
-  margin: 10px;
-  width: 1500px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .section1 a {
@@ -175,9 +205,9 @@ footer a:hover {
 }
 
 .img1, .img2, .img3, .img4, .img5, .img6 {
-  width: 550px;
-  height: 650px;
-  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -191,7 +221,7 @@ article h4 {
 article {
   border: 1px solid #ddd;
   border-radius: 8px;
-  padding: 15px;
+  padding: 20px;
   transition: box-shadow 0.3s;
 }
 article:hover {
