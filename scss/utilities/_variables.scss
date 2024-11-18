@@ -5,3 +5,16 @@ $white-color: white;
 $gray-color: #ddd;
 $light-gray-color: #ccc;
 $shadow-color: rgba(0, 0, 0, 0.3);
+
+/* Nuevas variables añadidas */
+$text-primary: $primary-color; /* Alias para textos principales */
+$text-secondary: $secondary-color; /* Alias para textos secundarios */
+$font-family-base: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente principal */
+$font-weight-bold: 800; /* Peso para textos destacados */
+$spacing-small: 5px; /* Espaciado pequeño */
+$spacing-medium: 15px; /* Espaciado mediano */
+$spacing-large: 40px; /* Espaciado grande */
+$border-radius-small: 5px; /* Bordes redondeados pequeños */
+$border-radius-medium: 10px; /* Bordes redondeados medianos */
+$transition-duration: 0.3s; /* Duración de transiciones */
+$transition-ease: ease; /* Tipo de transición */

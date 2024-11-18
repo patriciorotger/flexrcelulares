@@ -1,90 +1,129 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    min-height: 100vh;
-    display: block;
-    background-color: #f0f0f0;
-  }
-  
-  h2 {
-    color: deeppink;
-    margin-top: 15px;
-    text-align: center;
-    font-weight: 800;
-    font-size: 45px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 2px 2px 5px #888;
-  }
-  
-  h4 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  .header1 {
-    display: flex;
-    margin-left: 40px;
-    margin-bottom: 35px;
-    margin-top: 45px;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  footer {
-    background: linear-gradient(to right, deeppink, #ff5cef);
-    color: rgb(0, 0, 0);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-    padding: 20px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  footer a {
-    text-decoration: none; /* Quitar subrayado de los enlaces en el footer */
-    color: #ffffff; /* Color del texto del enlace */
-    transition: color 0.3s ease, transform 0.3s ease; /* Transición para el color y transformación */
-  }
+body {
+  min-height: 100vh;
+  display: block;
+  background-color: #f0f0f0;
+}
 
-  footer section {
-    flex: 1 1 100%; /* Ocupa toda la fila en pantallas pequeñas */
-    padding: 5px;
-  }
+h2 {
+  color: deeppink;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 45px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 5px #888;
+}
 
-  footer h4 {
-    margin-bottom: 15px;
-    font-size: 1.5em;
-    color: #000000;
-  }
+h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-  footer ul {
-    padding: 10;
-  }
+.header1 {
+  display: flex;
+  margin-left: 40px;
+  margin-bottom: 35px;
+  margin-top: 45px;
+}
 
-  footer li {
-    margin-bottom: 5px;
-  }
- 
-  footer a:hover {
-    color: #000000; /* Cambia el color del enlace al pasar el mouse */
-    transform: scale(1.1); /* Aumenta ligeramente el tamaño del enlace */
-  }
-  
-  .sectionacc {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-  }
-  
-  .sectionacc > div {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
+main {
+  padding: 20px;
+}
+
+footer {
+  background: linear-gradient(to right, deeppink, #ff5cef);
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer section {
+  flex: 1 1 100%;
+  padding: 5px;
+}
+
+footer h4 {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  color: #000000;
+}
+
+footer ul {
+  padding: 10;
+}
+
+footer li {
+  margin-bottom: 5px;
+}
+
+footer a:hover {
+  color: #000000;
+  transform: scale(1.1);
+}
+
+.sectionacc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.sectionacc > div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Mixins agregados */
+@mixin flex-center($direction: row, $gap: 0) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+  gap: $gap;
+}
+
+@mixin transition($property: all, $duration: 0.3s, $easing: ease) {
+  transition: $property $duration $easing;
+}
+
+/* Extends agregados */
+%text-shadow {
+  text-shadow: 2px 2px 5px #888;
+}
+
+%rounded-corners {
+  border-radius: 10px;
+}
+
+/* Aplicación de mixins y extends */
+h2 {
+  @extend %text-shadow;
+}
+
+.header1 {
+  @include flex-center(row, 40px);
+}
+
+footer a {
+  @include transition(color, 0.3s, ease);
+}
+
+.sectionacc {
+  @include flex-center(row, 20px);
+}

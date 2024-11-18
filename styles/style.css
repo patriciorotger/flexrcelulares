@@ -1,4 +1,16 @@
 @charset "UTF-8";
+/* Nuevas variables añadidas */
+/* Alias para textos principales */
+/* Alias para textos secundarios */
+/* Fuente principal */
+/* Peso para textos destacados */
+/* Espaciado pequeño */
+/* Espaciado mediano */
+/* Espaciado grande */
+/* Bordes redondeados pequeños */
+/* Bordes redondeados medianos */
+/* Duración de transiciones */
+/* Tipo de transición */
 * {
   margin: 0;
   padding: 0;
@@ -47,13 +59,13 @@ footer {
 }
 
 footer a {
-  text-decoration: none; /* Quitar subrayado de los enlaces en el footer */
-  color: #ffffff; /* Color del texto del enlace */
-  transition: color 0.3s ease, transform 0.3s ease; /* Transición para el color y transformación */
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 footer section {
-  flex: 1 1 100%; /* Ocupa toda la fila en pantallas pequeñas */
+  flex: 1 1 100%;
   padding: 5px;
 }
 
@@ -72,8 +84,8 @@ footer li {
 }
 
 footer a:hover {
-  color: #000000; /* Cambia el color del enlace al pasar el mouse */
-  transform: scale(1.1); /* Aumenta ligeramente el tamaño del enlace */
+  color: #000000;
+  transform: scale(1.1);
 }
 
 .sectionacc {
@@ -88,6 +100,33 @@ footer a:hover {
   flex-direction: row;
   gap: 20px;
   flex-wrap: wrap;
+}
+
+/* Mixins agregados */
+/* Extends agregados */
+.titulo, h2 {
+  text-shadow: 2px 2px 5px #888;
+}
+
+/* Aplicación de mixins y extends */
+.header1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+footer a {
+  transition: color 0.3s ease;
+}
+
+.sectionacc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 @media (max-width: 768px) {
@@ -151,17 +190,30 @@ footer section {
     flex: 1 1 100%;
   }
 }
-.section1 h3 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-  font-size: 25px;
-}
-
-.section1 img {
+.bazar-section img, .sectionacc img, .img1, .img2, .img3, .img4, .img5, .img6, .section1 img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form button, .section-celulares button, .bazar-section button, button {
+  padding: 10px 20px;
+  background-color: deeppink;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #ff5cef;
+}
+
+.section1 h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 25px;
 }
 
 .section1 a {
@@ -204,13 +256,6 @@ footer section {
   justify-content: space-around;
 }
 
-.img1, .img2, .img3, .img4, .img5, .img6 {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
 article h4 {
   color: deeppink;
   font-family: sans-serif;
@@ -238,12 +283,6 @@ article:hover {
   transition: box-shadow 0.3s;
 }
 
-.sectionacc img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
 h3 {
   font-size: 1.5rem;
   margin: 10px 0;
@@ -261,20 +300,6 @@ h4 {
   font-size: 25px;
   margin: 10px 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: deeppink;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-button:hover {
-  background-color: #ff5cef;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* Bazar */
@@ -297,12 +322,6 @@ button:hover {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
-.bazar-section img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
 .bazar-section h3 {
   font-size: 1.5rem;
   margin: 10px 0;
@@ -318,19 +337,6 @@ button:hover {
 .bazar-section h4 {
   font-size: 1.1rem;
   margin: 10px 0;
-}
-
-.bazar-section button {
-  padding: 10px 20px;
-  background-color: deeppink;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-.bazar-section button:hover {
-  background-color: #ff5cef;
 }
 
 /* Celulares */
@@ -393,19 +399,6 @@ button:hover {
   font-size: 1.3rem;
 }
 
-.section-celulares button {
-  padding: 10px 20px;
-  background-color: deeppink;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-.section-celulares button:hover {
-  background-color: #ff5cef;
-}
-
 /* Servicio Técnico */
 .texto {
   font-size: 1rem;
@@ -459,19 +452,6 @@ button:hover {
   border-radius: 4px;
 }
 
-.contact-form button {
-  background-color: deeppink;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-.contact-form button:hover {
-  background-color: #ff5cef;
-}
-
 .logo {
   width: 150px;
   height: auto;
@@ -522,5 +502,24 @@ button:hover {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   background-color: #ff5cef;
 }
+
+/* Plantillas */
+/* Placeholders añadidos */
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo, h2 {
+  text-shadow: 2px 2px 4px #aaa;
+}
+
+.nav1 {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Aplicación de placeholders */
 
 /*# sourceMappingURL=style.css.map */
