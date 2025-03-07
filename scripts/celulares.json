@@ -1,0 +1,32 @@
+{
+    "productos": [
+      {
+        "id": "1",
+        "nombre": "Iphone 13 PRO 512Gb - Sierra Blue",
+        "imagen": "../img/celulares/iphone13pro.jpg",
+        "descripcion": "El Iphone 13 Pro combina potencia y elegancia con su pantalla OLED de 6.1\" y cámara avanzada de 12 MP.",
+        "precio": "usd720"
+      },
+      {
+        "id": "2",
+        "nombre": "Iphone 14 128Gb - Black",
+        "imagen": "../img/celulares/iphone14.jpg",
+        "descripcion": "El Iphone 14 es ideal para quienes buscan tecnología de vanguardia con su chip A15 y cámara principal de 12 MP.",
+        "precio": "usd800"
+      },
+      {
+        "id": "3",
+        "nombre": "Iphone 15 PRO 128Gb - Black",
+        "imagen": "../img/celulares/iphone15pro.jpg",
+        "descripcion": "El Iphone 15 Pro tiene un diseño impresionante y potentes características como su chip A17 Pro y cámara principal de 48 MP.",
+        "precio": "usd1100"
+      },
+      {
+        "id": "4",
+        "nombre": "Iphone SE 3era Generación",
+        "imagen": "../img/celulares/iphonese3era.jpg",
+        "descripcion": "El Iphone SE ofrece un rendimiento excepcional con el chip A15 Bionic, todo en un diseño compacto.",
+        "precio": "usd500"
+      }
+    ]
+  }

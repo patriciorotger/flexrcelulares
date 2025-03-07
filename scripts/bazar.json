@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "nombre": "Jarro piturro grabado Stanley",
+        "descripcion": "El mismo cuenta con una capacidad de 600ml, varios colores disponibles.",
+        "precio": "36.500",
+        "imagen": "../img/bazar/jarropiturrostanley.jpg"
+    },
+    {
+        "id": "2",
+        "nombre": "Mate clasico NEO",
+        "descripcion": "El mismo cuenta con una capacidad de 150ml, varios colores disponibles.",
+        "precio": "14.500",
+        "imagen": "../img/bazar/mateclasiconeo150.jpg"
+    },
+    {
+        "id": "3",
+        "nombre": "Pava electrica Alien Tech",
+        "descripcion": "La misma cuenta con corte y 2 litros de capacidad.",
+        "precio": "115.000",
+        "imagen": "../img/bazar/pavaelectrica.jpg"
+    },
+    {
+        "id": "4",
+        "nombre": "Termo/Combo Heizen grabado Stanley",
+        "descripcion": "Este termo cuenta con tapa system y 1 litro de capacidad.",
+        "precio": "52.000",
+        "imagen": "../img/bazar/termotapacombo.jpg"
+    }
+]

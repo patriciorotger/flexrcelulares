@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "nombre": "Adaptador Bluetooth para auto",
+      "precio": 3500,
+      "imagen": "img/inicio/productos/adaptadorbt.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Auricular vincha con cable",
+      "precio": 4200,
+      "imagen": "img/inicio/productos/auri.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Auricular vincha bluetooth Janis",
+      "precio": 7500,
+      "imagen": "img/inicio/productos/aurijanis.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Cámara de seguridad WiFi",
+      "precio": 12500,
+      "imagen": "img/inicio/productos/camara.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Fundas acolchadas para celular",
+      "precio": 2500,
+      "imagen": "img/inicio/productos/fundas.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Parlante bluetooth 12' Aló Party",
+      "precio": 18000,
+      "imagen": "img/inicio/productos/parlante.jpg"
+    }
+  ]

@@ -1,0 +1,32 @@
+{
+    "productos": [
+      {
+        "id": "1",
+        "nombre": "Cámara Ezviz C6N interior",
+        "descripcion": "ESPECIFICACIONES: 1080p - Visión nocturna inteligente con IR inteligente (hasta 10 m) – Cobertura visual de 360° con paneo e inclinación motorizados - Modo suspensión para la protección privada – Detección de movimiento – Seguimiento inteligente – Habla bidireccional – Ver desde cualquier lugar - Wifi de 2,4 GHz - Ranura microSD (hasta 256 GB)",
+        "precio": "70000",
+        "imagen": "../img/accesorios/ezvizc6n.jpg"
+      },
+      {
+        "id": "2",
+        "nombre": "Joystick Ps4 Argentina",
+        "descripcion": "CARACTERÍSTICAS: Ideal para tener un producto de calidad. - Función wireless controller. - Se usan de forma inalámbrica. - Parlante mono integrado. - Panel táctil de 2 puntos. - Dimensiones: 16,2 ancho X 5,2 alto X 9,8 profundidad cm.",
+        "precio": "86000",
+        "imagen": "../img/accesorios/joystickps4.jpg"
+      },
+      {
+        "id": "3",
+        "nombre": "Parlante bluetooth EGO Mixor",
+        "descripcion": "ESPECIFICACIONES: -Alta voz recargable 3 x 2» - Potencia: 500 W - Conexion: BT 5.0 (alcance de hasta 10mts) Aux 3,5, Radio FM, Micro SD, TWS, Entrada micrófono - Iluminación RGB flame LED - Accesorios: cable usb - Dimensiones: 27cm alto x 13cm ancho.",
+        "precio": "42500",
+        "imagen": "../img/accesorios/parlanteegomixor.jpg"
+      },
+      {
+        "id": "4",
+        "nombre": "Auriculares bluetooth Twins Ultrapods",
+        "descripcion": "ESPECIFICACIONES: -Manos Libres - Bluetooth - Duración de la batería: De 4 A 5 hs. - Alcance de 10mts.",
+        "precio": "19000",
+        "imagen": "../img/accesorios/twinsultrapods.jpg"
+      }
+    ]
+  }
